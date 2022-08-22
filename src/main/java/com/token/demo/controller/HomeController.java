@@ -1,4 +1,4 @@
-package com.roken.demo.controller;
+package com.token.demo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.roken.demo.model.JwtRequest;
-import com.roken.demo.model.JwtResponse;
-import com.roken.demo.service.UserService;
-import com.roken.demo.utility.JWTUtility;
+import com.token.demo.model.JwtRequest;
+import com.token.demo.model.JwtResponse;
+import com.token.demo.service.UserService;
+import com.token.demo.utility.JWTUtility;
 
 @RestController
 public class HomeController {

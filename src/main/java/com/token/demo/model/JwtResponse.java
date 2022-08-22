@@ -1,4 +1,4 @@
-package com.roken.demo.model;
+package com.token.demo.model;
 
 public class JwtResponse {
 	

@@ -1,4 +1,4 @@
-package com.roken.demo.filter;
+package com.token.demo.filter;
 
 import java.io.IOException;
 
@@ -13,11 +13,14 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
+import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.roken.demo.service.UserService;
-import com.roken.demo.utility.JWTUtility;
+import com.token.demo.service.UserService;
+import com.token.demo.utility.JWTUtility;
 
+
+@Component
 public class JWTFilter extends OncePerRequestFilter {
 	
 	@Autowired

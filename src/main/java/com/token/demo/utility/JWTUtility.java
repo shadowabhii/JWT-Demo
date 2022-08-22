@@ -1,4 +1,4 @@
-package com.roken.demo.utility;
+package com.token.demo.utility;
 
 import java.io.Serializable;
 import java.util.function.Function;
